@@ -1,0 +1,39 @@
+.sidebar{
+    background-color: green;
+    color: white;
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    top: 146px;
+    padding-left: 100px;
+    margin-bottom: 56px;
+}
+
+.sidebar-container{
+    background-color: white;
+    color: red;
+
+    margin-top: 20px;
+    width: 217px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-container a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebar-feature{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-feature img{
+    width: 10px;
+    height: 10px;
+    margin-left:  70px;
+}
