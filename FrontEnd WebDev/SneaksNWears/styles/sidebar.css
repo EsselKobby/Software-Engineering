@@ -1,5 +1,5 @@
 .sidebar{
-    background-color: green;
+    /* background-color: green; */
     color: white;
     position: absolute;
 
@@ -12,7 +12,7 @@
 
 .sidebar-container{
     background-color: white;
-    color: red;
+    /* color: red; */
 
     margin-top: 20px;
     width: 217px;
@@ -25,6 +25,7 @@
 .sidebar-container a{
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 
 .sidebar-feature{
@@ -36,4 +37,13 @@
     width: 10px;
     height: 10px;
     margin-left:  70px;
+}
+
+.sidebar-feature a{
+    width: 80%;
+    text-wrap: nowrap;
+}
+
+.sidebar-feature img{
+    width: 20%;
 }
