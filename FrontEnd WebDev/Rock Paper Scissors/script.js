@@ -35,6 +35,9 @@ CUI Interface
 
 // console.log(getResult())
 
+/*
+GUI Interface
+*/
 function showResult (score, playerChoice, computerChoice) {
     
     let result = document.getElementById('result')
