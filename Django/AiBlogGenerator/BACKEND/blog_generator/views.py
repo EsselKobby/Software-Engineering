@@ -14,7 +14,7 @@ def user_login(request):
 def user_signup(request):
     if request.method == 'POST':
         username = request.POST['username']
-        email = request.GET['email']
+        email = request.POST['email']
         password = request.POST['password']
         repeatPassword = request.POST['repeatPassword']
 
