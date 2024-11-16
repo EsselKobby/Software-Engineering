@@ -13,4 +13,7 @@ class BlogDetailView(DetailView): #new
     model = Post
     template_name = 'post_detail.html'
 
-    
+class BlogCreateView(CreateView):
+    model = Post
+    template_name = 'post_new.html'
+    fields = ['title', 'author', 'body']
