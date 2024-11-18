@@ -41,3 +41,9 @@ class BlogTests(TestCase):
             self.assertEqual(no_response.status_code, 404)
             self.assertContains(response, 'A good title')
             self.assertTemplateUsed(response, 'post_detail.html')
+
+        def test_post_delete_view(self): # new
+            response = self.client.get(
+            reverse('post_delete', args='1'))
+            self.assertEqual(response.status_code, 200)
+            
